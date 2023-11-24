@@ -1,16 +1,51 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie Gallery</title>
+    <!-- Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- Bootstrap Container -->
+    <div class="container-fluid">
 
+        <!-- First Row -->
+        <div class="row">
+            <!-- 12 columns for large screens, each with an image -->
+            <div class="col-sm-1"><img src="your_image_url" alt="Movie Image" width="100" height="100"></div>
+            <div class="col-sm-1"><img src="your_image_url" alt="Movie Image" width="100" height="100"></div>
+            <!-- Repeat this for the remaining 10 columns -->
+        </div>
+
+        <!-- Second Row -->
+        <div class="row">
+            <!-- 6 columns for large screens, each with an image -->
+            <div class="col-sm-2"><img src="your_image_url" alt="Movie Image" width="100" height="100"></div>
+            <div class="col-sm-2"><img src="your_image_url" alt="Movie Image" width="100" height="100"></div>
+            <!-- Repeat this for the remaining 4 columns -->
+        </div>
+
+        <!-- Third Row -->
+        <div class="row">
+            <!-- 3 columns for large screens, each with an image -->
+            <div class="col-sm-4"><img src="your_image_url" alt="Movie Image" width="100" height="100"></div>
+            <!-- Repeat this for the remaining 2 columns -->
+        </div>
+
+        <!-- Fourth Row -->
+        <div class="row">
+            <!-- 1 column for large screens, with an image -->
+            <div class="col-sm-12"><img src="your_image_url" alt="Movie Image" width="100" height="100"></div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS and Popper.js CDN links (for optional Bootstrap features) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
